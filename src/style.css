@@ -1,0 +1,57 @@
+.mainContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.genreHover:hover {
+    width: 100%;
+    text-align: center;
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.movieDescription {
+    height: 200px;
+    overflow: scroll;
+}
+.moviesContent {
+    width: 500px;
+}
+.movie {
+    text-align: center;
+
+}
+
+.movie:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.searchContent {
+    background-color: #fecc00;
+    height: 175px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+   cursor: pointer;
+}
+
+img:hover{
+    opacity: 0.8;
+}
+
+.logo {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Roboto Light";
+    font-weight: bold;
+}
